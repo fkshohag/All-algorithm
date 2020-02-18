@@ -27,7 +27,7 @@ int arraySearch(int data[], int len, int value) {
 
 		if(value < data[left]) return left;
 		if(value > data[right]) return right+1;
-		int mid = left + (right - right) / 2;
+		int mid = left + (right - left) / 2;
 
 		if(value == data[left]) {
 			if(mid == left || data[left-1] != value) return mid;
