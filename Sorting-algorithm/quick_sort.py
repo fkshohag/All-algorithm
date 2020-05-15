@@ -1,11 +1,11 @@
 class QuickSort:
 	def partition(self, data , left, right):
-		counter, pivot = left-1, data[right-1]
+		counter, pivot = left-1, data[right]
 		for i in range(left, right):
-			if data[i] < pivot:
+			if data[i] <= pivot:
 				counter += 1
 				data[counter], data[i] = data[i], data[counter]
-		data[counter+1], data[right-1] = data[right-1], data[counter+1]
+		data[counter+1], data[right] = data[right], data[counter+1]
 		return counter+1, data
 			
 
@@ -18,5 +18,5 @@ class QuickSort:
 
 s = QuickSort()
 lis = [3,4,5,2,4]
-li = s.qsort(lis, 0, len(lis))
+li = s.qsort(lis, 0, len(lis)-1)
 print(li)
