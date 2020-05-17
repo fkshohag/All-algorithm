@@ -5,11 +5,11 @@
 
 using namespace std;
 
-class Chess{
+class Board{
 public:
 	int queens[N], no;
 
-	Chess() {
+	Board() {
 		no = 0;
 	}
 
@@ -48,6 +48,6 @@ public:
 
 
 int main() {
-	Chess s;
+	Board s;
 	s.nQueen(1,4);
 }
