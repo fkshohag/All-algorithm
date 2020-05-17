@@ -24,9 +24,7 @@ public:
 			if(isPlace(k, i)) {
 				queens[k] = i;
 				if(k == n) display(n);
-				else {
-					nQueen(k + 1, n);
-				}
+				else nQueen(k + 1, n);
 			}
 		}
 	}
@@ -37,7 +35,7 @@ public:
 		breakLine
 		for(int i = 1; i <= n; i++) {
 			for(int j = 1; j <= n; j++) {
-				if(queens[i] != j) printf("\t__");
+			    if(queens[i] != j) printf("\t__");
 			    else printf("\tQ");
 			} 
 			printf("\n");
