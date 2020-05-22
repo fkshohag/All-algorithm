@@ -18,8 +18,8 @@ int remove_duplicate(int arr[], int len) {
 
 int main () {
 
-	int arr[] = {1, 1, 1, 2, 2, 3, 4, 5};
-	int len = sizeof(arr) / sizeof(arr[0]);
+    int arr[] = {1, 1, 1, 2, 2, 3, 4, 5};
+    int len = sizeof(arr) / sizeof(arr[0]);
     int size = remove_duplicate(arr, len);
 
     printf("%d\n", size);
