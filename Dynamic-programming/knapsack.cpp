@@ -13,14 +13,11 @@ int knapSack(int maxWeight, int weight[], int profit[], int n) {
 	if(maxWeight == 0 || n == 0) return 0;
 	if(dp[maxWeight][n-1] != -1) return dp[maxWeight][n-1];
 	else if(weight[n-1] > maxWeight) return dp[maxWeight][n-1] = knapSack(maxWeight, weight, profit, n-1);
-	else {
-		dp[maxWeight][n-1] = max(
+	else 
+		return dp[maxWeight][n-1] = max(
 			profit[n-1] + knapSack(maxWeight - weight[n-1], weight, profit, n-1), 
 			knapSack(maxWeight, weight, profit, n-1)
 			);
-		return dp[maxWeight][n-1];
-	}
-
 }
 
 int main() {
