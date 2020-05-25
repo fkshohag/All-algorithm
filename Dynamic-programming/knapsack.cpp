@@ -21,11 +21,11 @@ int knapSack(int maxWeight, int weight[], int profit[], int n) {
 
 int main() {
     memset(dp, -1, sizeof(dp));
-    int val[] = { 60, 100, 120 }; 
-    int wt[] = { 10, 20, 30 }; 
-    int W = 50; 
-    int n = sizeof(val) / sizeof(val[0]); 
-    cout << knapSack(W, wt, val, n); 
+    int profit[] = { 60, 100, 120 }; 
+    int weight[] = { 10, 20, 30 }; 
+    int maxWeight = 50; 
+    int n = sizeof(profit) / sizeof(profit[0]); 
+    cout << knapSack(maxWeight, weight, profit, n); 
     return 0;
 
 }
