@@ -31,8 +31,8 @@ int prim(int source) {
 
 	while(!q.empty()) {
 		u = q.top(), q.pop();
-		if(!visited[u.city]) total_cost += u.weight;
 		if(!visited[u.city]) {
+			total_cost += u.weight;
 			for(int i = 0; i < edge[u.city].size(); i++) {
 				v.city = edge[u.city][i];
 				v.weight = cost[u.city][i];
