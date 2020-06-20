@@ -15,21 +15,21 @@ public:
         if(strs.size() == 1) return strs[0];
         sort(strs.begin(), strs.end(), [](const string& first, const string& second){
 			return first.length() < second.length();
-		});
-		bool flag = false;
-		int index = 0;
-		for(int i = 0; i < strs[0].length(); i++) {
-			for(int j = 1; j < strs.size(); j++) {
-				if(strs[j][i] != strs[0][i]) {
-					flag = true;
-					break;
-				}
-				if(j == strs.size()-1) index++;
+	});
+	bool flag = false;
+	int index = 0;
+	for(int i = 0; i < strs[0].length(); i++) {
+		for(int j = 1; j < strs.size(); j++) {
+			if(strs[j][i] != strs[0][i]) {
+				flag = true;
+				break;
 			}
-			if(flag) break;
+			if(j == strs.size()-1) index++;
 		}
-		if(flag && !index) return res;
-		return strs[0].substr(0, index);
+		if(flag) break;
+	}
+	if(flag && !index) return res;
+	return strs[0].substr(0, index);
     }
 };
 
