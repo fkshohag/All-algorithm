@@ -67,17 +67,17 @@ int main() {
 	Dice d(2);
 	d.generateDiceFlip();
 	printf("..................................End\n");
-	int step = 4; 
+	int step = 3; 
 	int counter = d.firstTimeOccure(step);
 	printf("%d occure first time: %d\n", step, counter);
 	printf("..................................End\n");
 
-	int sum = 8; 
+	int sum = 7; 
 	counter = d.biggerOrEqualSum(sum);
 	printf("%d bigger sum occure: %d\n", sum, counter);
 	printf("..................................End\n");
 
-	int diff = 2; 
+	int diff = 4; 
 	counter = d.differenceInNumberEqual(diff);
 	printf("%d diff in equal occure: %d\n", diff, counter);
 	printf("..................................End\n");

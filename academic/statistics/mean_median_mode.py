@@ -19,6 +19,7 @@ class Solver(object):
         print(mode)
 
 s = Solver()
-s.findMean([1,2,3,4])
-s.findMedian([1,2,3,4,5])
+s.findMean([8,9,13,11,14,16,17,18,19])
+s.findMedian([40,60,70,80,1000,120,130,140])
+s.findMedian([200,300,400,500,600,700,800,900])
 s.findMode([1,2,3,4,5, 5,2,2])

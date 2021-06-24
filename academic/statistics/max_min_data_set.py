@@ -10,9 +10,7 @@ class Solver(object):
         print(x)
 
 s = Solver()
-data_set = [8, 25, 11, 15, 29, 22, 10, 5, 17, 21,
-22, 13, 26, 16, 20, 12, 9, 26, 20, 16,
-23, 14, 19, 23, 20, 16, 27, 16, 21, 14]
+data_set = [200,300,400,500,600,700,800,900]
 s.findMin(data_set)
 s.findMax(data_set)
 s.sortedData(data_set)
