@@ -6,13 +6,13 @@ package Letcode;
  */
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        int newLenght = -1;
+        int newLength = -1;
         for (int index = 0; index < nums.length; index++) {
             if (nums[index] != val) {
-                nums[++newLenght] = nums[index];
+                nums[++newLength] = nums[index];
             }
         }
-        return newLenght + 1;
+        return newLength + 1;
     }
     public static void main(String[] args) {
         RemoveElement r = new RemoveElement();
