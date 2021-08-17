@@ -7,6 +7,12 @@ def eucledian_distance(vec1, vec2):
     """
     return np.sqrt(np.sum((vec1 - vec2) ** 2))
 
+def product_of_magnitude(vec):
+    total = 0
+    for x in vec:
+        total += (x * x)
+    return np.sqrt(total)
+
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.sqrt(np.dot(vec1, vec1)) * np.sqrt(np.dot(vec2, vec1)))
 
