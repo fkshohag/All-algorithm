@@ -10,7 +10,7 @@ class DomesticPlan extends Plan {
     }
 }
 
-class InternationalPlan extends Plan{
+class InternationalPlan extends Plan {
 
     @Override
     double getPrice() {
@@ -18,7 +18,7 @@ class InternationalPlan extends Plan{
     }
 }
 
-class CommercialPlan extends Plan{
+class CommercialPlan extends Plan {
     @Override
     double getPrice() {
         return 7.5;
