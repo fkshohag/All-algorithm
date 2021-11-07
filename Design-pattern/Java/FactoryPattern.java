@@ -1,5 +1,3 @@
-package DesignPattern;
-
 abstract class Plan {
     double price = 3.4;
     abstract double getPrice();
