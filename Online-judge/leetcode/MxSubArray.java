@@ -5,11 +5,13 @@ package Letcode;
  */
 public class MxSubArray {
     public int maxSubArray(int[] nums) {
+
         int currentMaxSum = 0, maxSum = Integer.MIN_VALUE;
         for (int number:nums) {
             currentMaxSum = Math.max(number, currentMaxSum + number);
             maxSum = Math.max(maxSum, currentMaxSum);
         }
+        
         return  maxSum;
     }
     public static void main(String[] args) {

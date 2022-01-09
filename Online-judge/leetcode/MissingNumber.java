@@ -8,10 +8,12 @@ package Letcode;
 public class MissingNumber {
     public int missingNumber(int[] nums) {
         int mxLength = nums.length + 1;
+        
         int [] visited = new int [mxLength];
         for(int index = 0; index < nums.length; index++) {
             visited[nums[index]] = nums[index];
         }
+
         int res = 0;
         for (int index = 0; index < visited.length; index++) {
             if (visited[index] != index) {

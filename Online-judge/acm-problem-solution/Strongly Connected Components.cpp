@@ -10,11 +10,13 @@ int node,nedge;
 int vis[100];
 int comp[100];
 int inDegree[100];
+
 int addEdge(int u,int v)
 {
 	edge[u].push_back(v);
 	redge[v].push_back(u);
 }
+
 void dfs(int x)
 {
     vis [x] = true;
@@ -37,29 +39,33 @@ void rdfs(int x,int c)
 }
 int main()
 {
-node=5;
-nedge=5;
-memset(vis,false,sizeof vis);
-memset (inDegree, 0, sizeof inDegree);
-for ( int i = 0; i <node; i++ ) {
-    addEdge(1, 0);
-    addEdge(0, 2);
-    addEdge(2, 1);
-    addEdge(0, 3);
-    addEdge(3, 4);
+
+    node=5;
+    nedge=5;
+    memset(vis,false,sizeof vis);
+    memset (inDegree, 0, sizeof inDegree);
+
+    for ( int i = 0; i <node; i++ ) {
+        addEdge(1, 0);
+        addEdge(0, 2);
+        addEdge(2, 1);
+        addEdge(0, 3);
+        addEdge(3, 4);
     }
- 
-for ( int i = 0; i <node; i++ ) {
-        if ( !vis [i] ) 
-            dfs(i);
-    }
-int sub=0;
- for ( int i = ans.size() - 1; i >= 0; i-- ) {
+     
+    for ( int i = 0; i <node; i++ ) {
+            if ( !vis [i] ) 
+                dfs(i);
+        }
+
+    int sub=0;
+    for ( int i = ans.size() - 1; i >= 0; i-- ) {
         if ( vis[ans[i]] )
         {
          rdfs(ans [i], sub++);
           printf("\n");
         }
     }
+
    printf("number of Sub Group:%d\n",sub);
 }

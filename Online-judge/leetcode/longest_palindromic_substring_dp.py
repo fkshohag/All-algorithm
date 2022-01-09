@@ -1,10 +1,12 @@
 class Solution(object):
     def longestPalindrome(self, s):
+        
         length = len(s)
         _solution = ''
         if length < 2:
             return s
         dp = [[False for i in range(length+1)] for j in range(length+1)]
+
         for i in range(length):
             for j in range(i,-1,-1):
                 if s[j] == s[i]:

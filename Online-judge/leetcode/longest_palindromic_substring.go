@@ -1,15 +1,20 @@
 func longestPalindrome(s string) string {
 	var length int = len(s)
+
 	if length < 0 {
 		return s
 	}
+	
 	var longestPalindrome string = ""
 	var longestPalindromeLenght int = 0
+
 	for index := 0; index < length; index++ {
+
 		left, right := expandString(s, length, index, index)
 		_left, _right := expandString(s, length, index, index+1)
 		mx := len(s[left:right])
 		_mx := len(s[_left:_right])
+
 		if mx > _mx && mx > longestPalindromeLenght {
 			longestPalindromeLenght = mx
 			longestPalindrome = s[left:right]

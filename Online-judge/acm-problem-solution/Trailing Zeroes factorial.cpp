@@ -2,6 +2,7 @@
 # include <cstdio>
 # define ll long long
 using namespace std;
+
 ll zero_count(ll n)
 {
 	ll p=5,cont=0;

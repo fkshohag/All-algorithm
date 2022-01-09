@@ -31,11 +31,14 @@ int main()
 	v.push_back(2);
 	v.push_back(4);
 	sort(v.begin(), v.end());
+
 	Solution s;
 	v = s.findDisappearedNumbers(v);
+
 	for (int i = 0; i < v.size(); i++)
 	{
 		printf("%d ", v[i]);
 	}
+	
 	printf("\n");
 }

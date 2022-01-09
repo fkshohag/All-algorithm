@@ -3,6 +3,7 @@
 # include <algorithm>
 # include <cstring>
 using namespace std;
+
 #define MAX 100009
 #define i64 long long
 #define sq(x) ((x)*(x))
@@ -36,14 +37,17 @@ void ConvexHull(i64 np, i64 &nc) {
     for(i=1; i<np; i++)
         if(P[i].y<P[pos].y || (P[i].y==P[pos].y && P[i].x>P[pos].x))//find the orgin of all point
             pos = i;
+
     swap(P[0], P[pos]);
     P0 = P[0];
     sort(&P[1], P+np, comp);
+
     C[0] = P[0], C[1] = P[1], C[2] = P[2];
     for(i=j=3; i<np; i++) {
         while(TriArea2(C[j-2], C[j-1], P[i]) <= 0) j--;
         C[j++] = P[i];
     }
+
     nc = j;
 }
 int main()
