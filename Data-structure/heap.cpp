@@ -27,6 +27,7 @@ void maxHeapify(int data[], int i, int N) {
 }
 
 void minHeapify(int data[], int i, int N) {
+	
 	int left = i*2;
 	int right = i*2+1;
 	int smallest;
@@ -57,6 +58,7 @@ void buildMinHeap(int data[], int N) {
 void heap_sort(int data[], int N) {
 	int heapSize = N;
 	buildMaxHeap(data, N);
+
 	for(int i = N; i >= 2; i--) {
 		swap(&data[1], &data[i]);
 		heapSize--;
@@ -68,6 +70,7 @@ int main() {
 	int data[8] = {0, 8, 7, 6, 3, 2, 4, 5};
 	int N = 7;
 	buildMaxHeap(data, N);
+
 	for(int i = 1; i <= N; i++) {
 		printf("%d ", data[i]);
 	}

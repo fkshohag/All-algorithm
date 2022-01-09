@@ -32,13 +32,16 @@ int query(int node, int l, int r, int i, int j) {
 
 void update(int node , int l, int r, int i, int j, int val) {
 	if(i > r || j < l) return;
+
 	else if (i <= l && j >= r) {
 		tree[node] = val;
 		return;
 	}
+
 	int left = (node * 2);
 	int right = (node * 2 + 1);
 	int mid = (l + r) / 2;
+
 	update(left, l, mid, i, j, val);
 	update(right, mid+1, r, i, j, val);
 	tree[node] = tree[left] + tree[right];
@@ -48,13 +51,17 @@ int main() {
 	int n = 8;
 	for(int i = 1; i <= n; i++)
 		arr[i] = i;
+
 	prepareTree(1, 1, n);
+
 	for(int i = 1; i <= 15; i++) // total node = 15 after segmentation
 		printf("%d ", tree[i]);
 	int q = query(1, 1, n, 2, 4);
+
 	printf("\nresult = %d", q);
 	update(1, 1, n, 3, 3,55);
 	printf("\n");
+	
 	for (int i =1; i <= 15; i++)
 		printf("%d ", tree[i]);
 

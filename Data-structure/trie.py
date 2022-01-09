@@ -30,6 +30,7 @@ class Trie:
 
     def has_word(self, word):
         self.curr = self.root
+        
         for letter in word:
             for child in self.curr.childs:
                 if child.letter == letter:

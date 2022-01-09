@@ -23,9 +23,11 @@ class HasMap:
 		return key_hash % 15
 
 	def map(self, key, value):
+
 		new_node = Node(key, value)
 		key_hash = self._hash(key)
 		index = self._get_index(key_hash)
+
 		if not self.store[index]:
 			self.store[index] = [new_node]
 		else:
@@ -42,10 +44,13 @@ class HasMap:
 	def get(self, key):
 		key_hash = self._hash(key)
 		index = self._get_index(key_hash)
+
 		if not self.store[index]:
 			return None
+
 		else:
 			list_at_index = self.store[index]
+			
 			for node in list_at_index:
 				if node.key == key:
 					return node.value

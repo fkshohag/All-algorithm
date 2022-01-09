@@ -8,11 +8,13 @@ class SegmentTree(object):
 		if left == right:
 			self.tree[node] = self.data[left]
 			return 
+
 		_left = node*2
 		_right = node*2+1
 		mid = (int)(left+right)/2
 		self.treeInit(_left, left, mid)
 		self.treeInit(_right, mid+1, right)
+
 		self.tree[node] = self.tree[_left]+self.tree[_right]
 
 	def query(self, node, left, right, i, j):
@@ -28,11 +30,13 @@ class SegmentTree(object):
 		return p1+p2
 
 	def update(self, node, left, right, i, j, val):
+		
 		if i > right or j < left:
 			return 
 		elif left >= i and right <= j:
 			self.tree[node] = val
 			return 
+
 		_left = node*2
 		_right = node*2+1
 		mid = (int)(left+right)/2
