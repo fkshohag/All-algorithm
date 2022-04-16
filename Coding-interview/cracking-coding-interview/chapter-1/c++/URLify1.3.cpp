@@ -4,7 +4,7 @@
 
 using namespace std;
 
-char * replaceSpaces(char str[], unsigned long len) {
+char * urLify(char str[], unsigned long len) {
 
 	int spaceCount = 0, index = 0;
 	for (int i = 0; i < len; i++) {
@@ -40,7 +40,7 @@ int main() {
 	char str[100];
 	cin.get(str, 100);
 	unsigned long len = strlen(str);
-	char *result = replaceSpaces(str, len);
+	char *result = urLify(str, len);
 	printf("%s\n", str);
 
 	/*
