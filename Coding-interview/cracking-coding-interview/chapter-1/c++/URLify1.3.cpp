@@ -35,7 +35,7 @@ char * replaceSpaces(char str[], unsigned long len) {
 }
 
 int main() {
-	freopen("in.txt", "r", stdin);
+	// freopen("in.txt", "r", stdin);
 
 	char str[100];
 	cin.get(str, 100);
