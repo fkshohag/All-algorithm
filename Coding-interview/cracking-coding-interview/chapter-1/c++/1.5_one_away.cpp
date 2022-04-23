@@ -4,19 +4,26 @@
 
 using namespace std;
 
+const string INSERT_TYPE = "insert";
+const string REMOVE_TYPE = "remove";
+
 /*
   ale -> aple
   apple -> aple
 */
 	
-bool onEditInsert(string s1, string s2) {
+bool oneEditInsertAndRemove(string s1, string s2, string operationType) {
 	int firstStringIndex = 0, secondStringIndex = 0;
 	while(firstStringIndex < s1.size() && secondStringIndex < s2.size()) {
 		if (s1[firstStringIndex] != s2[secondStringIndex]) {
 			if(firstStringIndex != secondStringIndex) {
 				return false;
 			}
-			secondStringIndex++;
+			if (operationType == INSERT_TYPE) {
+				firstStringIndex++;
+			} else if (operationType == REMOVE_TYPE) {
+				secondStringIndex++;
+			}
 		}
 		else {
 			firstStringIndex++;
@@ -44,10 +51,10 @@ bool onEditAway(string s1, string s2) {
 		return onEditReplace(s1, s2);
 	}
 	else if (s1.size() + 1 == s2.size()) {
-		return onEditInsert(s1, s2);
+		return oneEditInsertAndRemove(s1, s2, REMOVE_TYPE);
 	}
 	else if (s1.size() - 1 == s2.size()) {
-		return onEditInsert(s1, s2);
+		return oneEditInsertAndRemove(s1, s2, INSERT_TYPE);
 	}
 	return false;
 }
