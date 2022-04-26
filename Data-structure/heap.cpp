@@ -28,8 +28,8 @@ void maxHeapify (int data[], int i, int N) {
 
 void minHeapify(int data[], int i, int N) {
 	
-	int left = i*2;
-	int right = i*2+1;
+	int left = i * 2;
+	int right = i * 2 + 1;
 	int smallest;
 
 	if(left <= N && data[left] < data[i]) smallest = left;
