@@ -9,13 +9,13 @@ void swap(int *a, int *b) {
 	*b = temp;
 }
 
-void maxHeapify(int data[], int i, int N) {
+void maxHeapify (int data[], int i, int N) {
 
-	int left = i*2;
-	int right = i*2+1;
+	int left = i * 2;
+	int right = i * 2 + 1;
 	int largest = 0;
 	
-	if(left <= N && data[left] > data[i]) largest = left;
+	if (left <= N && data[left] > data[i]) largest = left;
 	else largest = i;
 
 	if(right <= N && data[right] > data[largest]) largest = right;
@@ -43,14 +43,14 @@ void minHeapify(int data[], int i, int N) {
 	}
 }
 
-void buildMaxHeap(int data[], int N) {
-	for(int i = N/2; i >= 1; i--) {
+void buildMaxHeap (int data[], int N) {
+	for (int i = N/2; i >= 1; i--) {
 		maxHeapify(data, i, N);
 	}
 } 
 
-void buildMinHeap(int data[], int N) {
-	for(int i = N/2; i >= 1; i--) {
+void buildMinHeap (int data[], int N) {
+	for (int i = N/2; i >= 1; i--) {
 		minHeapify(data, i, N);
 	}
 }
