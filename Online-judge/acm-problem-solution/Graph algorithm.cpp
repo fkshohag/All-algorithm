@@ -104,17 +104,21 @@ void Graph::dijkstra(int source,int distination)
 	int d[100];
 	priority_queue<Graph>q;
 	Graph u,v;
+
 	for(int i=0;i<100;i++)
 	{
 		d[i]=inf;
 	}
+
 	u.city=source;u.dist=0;
 	d[u.city]=0;
 	q.push(u);
+
 	while(!q.empty())
 	{
 		u=q.top();q.pop();
 		int ucost=d[u.city];
+		
 		for(int i=0;i<edge[u.city].size();i++)
 		{
 			v.city=edge[u.city][i];
@@ -126,6 +130,7 @@ void Graph::dijkstra(int source,int distination)
 			}
 		}
 	}
+
 	for(int i=0;i<=distination;i++)
 	{
 		printf("%d to %d distance %d\n",source,i,d[i]);
