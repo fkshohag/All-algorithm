@@ -30,14 +30,14 @@ public:
                 wordCounter[word[index] - 'a']++;
             }
             
-            bool isMatch = true;
+            bool isSubset = true;
             for (int index = 0; index < 26; index++) {
                 if (wordCounter[index] < word2Counter[index]) {
-                    isMatch = false;
+                    isSubset = false;
                     break;
                 }
             }
-            if (isMatch) {
+            if (isSubset) {
                 ans.push_back(word);
             }
         }
