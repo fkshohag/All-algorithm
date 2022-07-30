@@ -11,6 +11,7 @@ using namespace std;
 
 class Solution {
 public:
+    
     string patternWord(string word) {
         string ans;
         int index = 0;
@@ -28,6 +29,7 @@ public:
         }
         return ans;
     }
+
     vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
         vector<string> ans;
         if (pattern.size() == 0) return ans;
