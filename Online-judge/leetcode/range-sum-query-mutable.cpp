@@ -4,7 +4,7 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/range-sum-query-mutable/
- * Complexity: running O(logn) Space O(1) -> There are log(n) levels
+ * Complexity: running O(log n) Space O(1) -> There are log(n) levels
  */
 
 class NumArray {
@@ -44,7 +44,7 @@ private:
         if (left >= start && right <= end) {
             return tree[index];
         }
-        
+
         if (left > end || right < start) return 0;
         int mid = left + (right - left) / 2;
         return query(left, mid, 2 * index + 1, start, end) + query(mid + 1, right, 2 * index + 2, start, end);
