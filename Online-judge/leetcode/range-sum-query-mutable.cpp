@@ -1,6 +1,10 @@
-# include <iostream>
-# include <cstdio>
+#include <bits/stdc++.h>
 using namespace std;
+
+/**
+ * @author Md.Shohag <shohag.fks@gmail.com>
+ * Problem : https://leetcode.com/problems/range-sum-query-mutable/
+ */
 
 class NumArray {
 private: 
@@ -57,10 +61,9 @@ public:
     }
 };
 
-int main() {
-
- NumArray* obj = new NumArray(nums);
- obj->update(index,val);
- int param_2 = obj->sumRange(left,right);
- return 0;
-}
+/**
+ * Your NumArray object will be instantiated and called as such:
+ * NumArray* obj = new NumArray(nums);
+ * obj->update(index,val);
+ * int param_2 = obj->sumRange(left,right);
+ */
