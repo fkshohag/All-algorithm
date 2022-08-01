@@ -4,6 +4,7 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/range-sum-query-mutable/
+ * Complexity: running O(logn) Space O(1) -> There are log(n) levels
  */
 
 class NumArray {
@@ -16,6 +17,7 @@ private:
             tree[index] = nums[left];
             return;
         }
+
         int mid = left + (right - left) / 2;
         build(nums, left, mid, 2 * index + 1);
         build(nums, mid + 1, right, 2 * index + 2);
@@ -28,11 +30,13 @@ private:
             return;
         }
         int mid = left + (right - left) / 2;
+
         if (i <= mid) {
             updateTree(left, mid, 2 * index + 1, i, x);
         } else {
             updateTree(mid + 1, right, 2 * index + 2, i, x);
         }
+
         tree[index] = tree[2 * index + 1] + tree[2 * index + 2];
     }
     
@@ -40,6 +44,7 @@ private:
         if (left >= start && right <= end) {
             return tree[index];
         }
+        
         if (left > end || right < start) return 0;
         int mid = left + (right - left) / 2;
         return query(left, mid, 2 * index + 1, start, end) + query(mid + 1, right, 2 * index + 2, start, end);
