@@ -5,9 +5,12 @@
 # include <queue>
 # include <cstdlib>
 # include <algorithm>
+
 using namespace std;
+
 # define inf 10000000;
 # define cycle -33
+
 class Graph
 {
 public:
@@ -31,18 +34,22 @@ public:
 	void dijkstra(int source,int distination);
 	int Bellman_ford(int source,int distination,int node);
 };
+
 void Graph::init()
 {
 	memset(visited,false,sizeof visited);
 }
+
 void Graph::AddEdge(int u,int v)
 {
 	edge[u].push_back(v);
 }
+
 void Graph::AddCost(int e,int value)
 {
 	cost[e].push_back(value);
 }
+
 void Graph::Store(int node,int Edge)
 {
 	for(int i=0;i<Edge;i++)
@@ -55,6 +62,7 @@ void Graph::Store(int node,int Edge)
 		AddCost(v,c);
 	}
 }
+
 void Graph::bfs(int source,int distination)
 {
 	int d[100];
@@ -85,6 +93,7 @@ void Graph::bfs(int source,int distination)
 		printf("%d to %d distance %d\n",source,i,d[i]);
 	}
 }
+
 void Graph::dfs(int n)
 {
 	visited[n]=true;
@@ -99,6 +108,7 @@ void Graph::dfs(int n)
 	ans.push_back(n);
 	return;
 }
+
 void Graph::dijkstra(int source,int distination)
 {
 	int d[100];
@@ -137,6 +147,7 @@ void Graph::dijkstra(int source,int distination)
 	}
 
 }
+
 int Graph::Bellman_ford(int source,int distination,int node)
 {
 	int d[100],p[100];//// d is for distance, p for predecessor 
@@ -182,6 +193,7 @@ int Graph::Bellman_ford(int source,int distination,int node)
 	}
 	return d[distination];
 }
+
 int main()
 {
 	Graph g;
