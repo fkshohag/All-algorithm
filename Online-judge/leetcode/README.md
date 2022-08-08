@@ -14,8 +14,7 @@ My leetcode solutions
 | 63           | Problem: [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) <br/>Solution: [Solution Link](unique-paths-ii.cpp)                                                                                                                 | DP                                     |
 | 729           | Problem: [My Calendar I](https://leetcode.com/problems/my-calendar-i/) <br/>Solution: [Solution Link](my-calendar-i.cpp)                                                                                                                 | DP                                     |  
 | 292           | Problem: [Nim Game](https://leetcode.com/problems/nim-game/) <br/>Solution: [Solution Link](nim-game.cpp)                                                                                                                 | Game theroy                                    |  
-| 101           | Problem: [My Calendar I](https://leetcode.com/problems/symmetric-tree/) <br/>Solution: [Solution Link](symmetric-tree.cpp)          | DP 
+| 101           | Problem: [My Calendar I](https://leetcode.com/problems/symmetric-tree/) <br/>Solution: [Solution Link](symmetric-tree.cpp)          | DP             | 
+| 1220          | Problem: [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) <br/>Solution: [Solution Link](count-vowels-permutation.cpp)    |                 DP                |
+| 300           | Problem: [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) <br/>Solution: [Solution Link](longest-increasing-subsequence.cpp)                                                                                                                 | DP , Binary Search, Array |
 
-| 1220           | Problem: [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) <br/>Solution: [Solution Link](count-vowels-permutation.cpp)    | DP 
-
-| 300           | Problem: [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) <br/>Solution: [Solution Link](longest-increasing-subsequence.cpp)                                                                                                                 | DP , Binary Search, Array
