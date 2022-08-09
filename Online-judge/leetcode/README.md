@@ -17,4 +17,5 @@ My leetcode solutions
 | 101           | Problem: [My Calendar I](https://leetcode.com/problems/symmetric-tree/) <br/>Solution: [Solution Link](symmetric-tree.cpp)          | DP             | 
 | 1220          | Problem: [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) <br/>Solution: [Solution Link](count-vowels-permutation.cpp)    |                 DP                |
 | 300           | Problem: [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) <br/>Solution: [Solution Link](longest-increasing-subsequence.cpp)                                                                                                                 | DP , Binary Search, Array |
+| 823           | Problem: [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/) <br/>Solution: [Solution Link](binary-trees-with-factors.cpp)                                                                                                                 | DP , Array, Hash table |
 
