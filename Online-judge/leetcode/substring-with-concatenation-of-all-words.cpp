@@ -4,6 +4,7 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+ * Time complexity: O(n . a . b - (a . b) ^ 2)O(n⋅a⋅b−(a⋅b) ^ 2 )
  */
 
 class Solution {
