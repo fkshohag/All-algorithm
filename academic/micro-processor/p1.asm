@@ -9,7 +9,7 @@ CODE SEGMENT
         JL Less
        
     Greater:
-       MOV DX, 0   
+       MOV DX, 0H
        JMP Last
         
     Equal:
