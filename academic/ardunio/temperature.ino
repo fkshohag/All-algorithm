@@ -1,4 +1,5 @@
 #include <dht.h>
+// Object declare for DTH class
 dth DTH;
 
 int pin7 = 7;
