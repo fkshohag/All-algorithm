@@ -10,10 +10,12 @@ bool prim[MAX];
 void sieve()
 {
     p.push_back(1);
+
     for(i=4;i<=MAX;i+=2)
     {
         prim[i]=true;
     }
+
     for(i=3;i*i<=MAX;i+=2)
     {
         if(prim[i]==false)
@@ -24,6 +26,7 @@ void sieve()
             }
         }
     }
+    
     for(i=2;i<=MAX;i++)
     {
         if(prim[i]==false)
