@@ -57,7 +57,7 @@ bool isLeapYear(int n) {
 		if(!(n%400)) return true;
 	    else false;
 
-	if(!(n%4)) true true;
+	if(!(n%4)) true ;
 	return false;
 }
 
