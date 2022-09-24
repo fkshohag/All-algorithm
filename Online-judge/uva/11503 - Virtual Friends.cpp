@@ -7,11 +7,13 @@
 # define ll long long
 ll par[MAX],group[MAX];
 using namespace std;
+
 ll find_friend(ll n)
 {
     if(par[n]==n)return n;
         return (par[n]=find_friend(par[n]));
 }
+
 void unio_set(ll u,ll v)
 {
     ll U=find_friend(u);
@@ -23,6 +25,7 @@ void unio_set(ll u,ll v)
     }
     cout<<group[U]<<endl;
 }
+
 int main()
 {
     string s1,s2;
