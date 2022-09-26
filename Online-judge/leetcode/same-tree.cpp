@@ -6,6 +6,11 @@ using namespace std;
  * Problem : https://leetcode.com/problems/same-tree/
  */
 
+/*
+Time complexity : O(N)O(N)
+Space complexity : O(N)O(N)
+*/
+
 
  struct TreeNode {
     int val;
