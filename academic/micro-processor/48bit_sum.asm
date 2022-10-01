@@ -3,7 +3,7 @@ CODE SEGMENT
 
      LEA SI, A 
      LEA DI, B 
-     LEA  DX, OFFSET BX
+     MOV  BX, OFFSET S
 
      MOV AX, [SI, + 4]
      ADD AX, [DI + 4]
