@@ -10,7 +10,8 @@ CODE SEGMENT
      MOV [BX + 2], AX
 
      MOV AX, [SI]
-     ADD AX, [DI]
+     ADC AX, [DI]
+     
      MOV [BX], AX
      HLT 
 
