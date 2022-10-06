@@ -4,6 +4,8 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/subsets/
+ * Time complexity : O(N*(2^N))
+ * Space complexity : O(N*(2^N))
  */
 
 
