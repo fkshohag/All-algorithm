@@ -4,8 +4,8 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/word-search/
- *Time Complexity: O(mn)
- *Space Complexity:O((word_length)^2)
+ * Time Complexity: O(mn)
+ * Space Complexity:O((word_length)^2)
  */
 
 
