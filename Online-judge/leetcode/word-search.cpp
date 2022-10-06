@@ -15,10 +15,10 @@ private:
         if (n == word.size()) return true;
         if (i < 0 || i >= board.size() || j < 0 || j >= board[0].size() || board[i][j] != word[n]) return false;
         board[i][j] = '0'; // visited path
-        bool status = findWord(board, word, i+1 , j, n+1) // down
-            || findWord(board, word, i-1 , j, n+1) // up
-            || findWord(board, word, i , j + 1, n+1) // right
-            || findWord(board, word, i , j - 1, n+1); // left
+        bool status = findWord(board, word, i+1 , j, n + 1) // down
+            || findWord(board, word, i - 1 , j, n + 1) // up
+            || findWord(board, word, i , j + 1, n + 1) // right
+            || findWord(board, word, i , j - 1, n + 1); // left
             
         board[i][j] = word[n]; // free for next search 
         return status;
