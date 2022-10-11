@@ -1,6 +1,12 @@
-void setup() {
-  // put your setup code here, to run once:
+Servo myServo;
+int buzzer = 7;
+int trigPin = 8;
+int echoPin = 9;
 
+void setup() {
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -23,7 +29,7 @@ void loop() {
     lcd.setCursor(0, 1);
     lcd.print("Distance=");
     lcd.setCursor(9 ,1);
-    lcd. print(distance);
+    lcd.print(distance);
     lcd.setCursor(13, 1);
     lcd.print("cm");
   }
@@ -37,9 +43,9 @@ int calculateDistance() {
   distance = duration * 0.034 / 2;
 
   if (distance < 10) {
-    analogWrite(buzz, 255);
-    delay(500);
+    tone(buzzer, 1000);
+    delay(200);
+    noTone(buzzer);
   }
-  analogWrite(buzz, 0);
   return distance;
 }
