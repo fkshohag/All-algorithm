@@ -6,7 +6,7 @@ using namespace std;
  * Problem : https://leetcode.com/problems/minimum-number-of-keypresses/
  * Solution: https://leetcode.com/problems/minimum-number-of-keypresses/discuss/2432518/Simple-C%2B%2B-solution-explained-with-O(n)-time-complexity-explained
  * Time Complexity: O(N)
- * Space Constand
+ * Space Complexity: O(N)
  */
 
 
