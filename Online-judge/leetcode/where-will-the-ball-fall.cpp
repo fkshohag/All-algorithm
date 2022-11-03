@@ -32,7 +32,7 @@ public:
 };
 
  // Time complexity: O(M⋅N) 
- // O(1)
+ // Space complexity O(1)
 class Solution {
 public:
     vector<int> findBall(vector<vector<int>>& grid) {
