@@ -23,7 +23,7 @@ public:
                 if (nums[i] + nums[j] == target) {
                     v.push_back(i);
                     v.push_back(j);
-                    break;
+                    return v;
                 }
             }
         }
