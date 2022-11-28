@@ -10,14 +10,9 @@ using namespace std;
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int largestSum = -1 * numeric_limits<int>::max();
+        int largestSum = INT_MIN;
         int largest = 0;
         for (int index = 0 ; index < nums.size(); index++) {
-            // int largest = 0;
-            // for (int jIndex = index; jIndex < nums.size(); jIndex++) {
-            //     largest += nums[jIndex];
-            //     largestSum = max(largest, largestSum);
-            // }
             largest = max(nums[index], largest + nums[index]);
             largestSum = max(largest, largestSum);
         }
