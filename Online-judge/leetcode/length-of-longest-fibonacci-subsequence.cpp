@@ -17,7 +17,7 @@ public:
         int N = arr.size();
 
         for (int i = 0; i < N; i++) {
-            for (int j = i+1; j < N; j++) {
+            for (int j = i + 1; j < N; j++) {
                 int a = arr[i], b = arr[j], l = 2;
                 while (s.count(a + b)) {
                     b = a + b, a = b - a, l++;
