@@ -7,8 +7,8 @@ using namespace std;
  */
 
 /*
-Time complexity : O(N)O(N)
-Space complexity : O(N)O(N)
+Time complexity : O(N)
+Space complexity : O(N)
 */
 
 
@@ -35,15 +35,11 @@ public:
 
 class Solution {
 public:
-    bool isSameNode(TreeNode* p, TreeNode* q) {
-        if (!p && !q) return true;
-        if (!p || !q) return false;
-        if (p->val != q->val) return false;
-        return true;
-    }
     
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        if (!isSameNode(p, q)) return false;
+        if (!p || !q ) return p == q;
+        if (p->val != q->val) return false;
+
         queue<TreeNode*>que;
         que.push(p);
         que.push(q);
@@ -54,14 +50,13 @@ public:
             TreeNode* qq = que.front();
             que.pop();
             
-            if (!isSameNode(pp->left, qq->left)) return false;
-            if (!pp->left) {
+            if ((pp->val != qq->val) || (pp->left && !qq->left) || (!pp->left && qq->left) || (pp->right && !qq->right) || (!pp->right && qq->right)) return false;
+
+            if (pp->left && qq->left) {
                 que.push(pp->left);
-                que.push(qq->right);
+                que.push(qq->left);
             }
-            
-            if (!isSameNode(pp->right, qq->right)) return false;
-            if (!pp->right) {
+            if (pp->right && qq->right) {
                 que.push(pp->right);
                 que.push(qq->right);
             }
