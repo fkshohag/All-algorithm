@@ -4,6 +4,7 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/non-decreasing-subsequences/description/
+ * Solution: https://leetcode.com/problems/non-decreasing-subsequences/solutions/3075805/simple-c-recursive-backtracking-with-clear-explanation/
  * Time complexity  O(2^n * n^2)
  * Space complexity O(2^n * n)
 */
