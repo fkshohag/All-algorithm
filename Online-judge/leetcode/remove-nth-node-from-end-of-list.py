@@ -1,4 +1,4 @@
-from pyparsing import Optional
+from typing import Optional
 
 
 class ListNode:
