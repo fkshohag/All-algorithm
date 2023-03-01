@@ -32,7 +32,7 @@ Space Complexity: O(n)
 
 class Solution {
 public:
-    void inorder(TreeNode *root, vector<int> &ans) {
+    void inorder(TreeNode *root, vector<int>& ans) {
         if (root == nullptr) return;
         if (root->left) inorder(root->left, ans);
         ans.push_back(root->val);
