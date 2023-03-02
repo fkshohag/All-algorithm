@@ -24,6 +24,7 @@ private:
         if (!root) return 0;
         int left = max(sumPath(root->left), 0);
         int right = max(sumPath(root->right), 0);
+        
         int sum =  root->val + left + right;
         maxSum = max(maxSum, sum);
         return max(left + root->val, right + root->val);

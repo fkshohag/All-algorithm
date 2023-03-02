@@ -15,11 +15,11 @@ public:
         memset(dp, 0, sizeof(dp));
 
         for (int row = text1.size()-1; row >= 0; row--) {
-            for (int col = text2.size()-1; col >= 0; col--) {
+            for (int col = text2.size() - 1; col >= 0; col--) {
                 if (text1[row] == text2[col]) {
-                    dp[row][col] = 1+dp[row+1][col+1]; // character match that means need to move diagonal
+                    dp[row][col] = 1 + dp[row + 1][col + 1]; // character match that means need to move diagonal
                 } else {
-                    dp[row][col] = max(dp[row+1][col], dp[row][col+1]); // not match take max from right / bottom
+                    dp[row][col] = max(dp[row + 1][col], dp[row][col + 1]); // not match take max from right / bottom
                 }
             }
         } 
