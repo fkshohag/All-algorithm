@@ -8,6 +8,7 @@ using namespace std;
 
 /**
  * @brief 
+ * basic idea is leftRoot = 2 * index + 1 and rightNode = 2 * index + 1
  * Time complexity : O(n)
  * Space complexity: O(n)
  */
