@@ -1,5 +1,6 @@
 from collections import defaultdict
 from queue import Queue
+
 graph = defaultdict(list)
 graph[0].append(1)
 graph[1].append(2)
