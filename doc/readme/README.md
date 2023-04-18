@@ -47,6 +47,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 Serial | Problem No .     | Problem And solution | Category | Platform
 ---    | ---------        |  ------- | ---- | --- |
 1 | 11           | Problem: [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) <br/>Solution: [c++](../../Online-judge/leetcode/container-with-most-water.cpp)                                                                              | Two pointer | Leetcode 
+2 | 1768           | Problem: [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/editorial/) <br/>Solution: [c++](../../Online-judge/leetcode/merge-strings-alternately.cpp), [python](../../Online-judge/leetcode/merge-strings-alternately.py)                                                                            | Two pointer, One pointer | Leetcode 
 
 
 
