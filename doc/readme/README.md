@@ -181,7 +181,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 19 | 129           | Problem: [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) <br/>Solution: [c++](../../Online-judge/leetcode/sum-root-to-leaf-numbers.cpp)                                                                                                                  | BST | Leetcode
 20 | 958           | Problem: [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/) <br/>Solution: [c++](../../Online-judge/leetcode/check-completeness-of-a-binary-tree.cpp)                                                       | BST | Leetcode
 21 | 106           | Problem: [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) <br/>Solution: [c++](../../Online-judge/leetcode/construct-binary-tree-from-inorder-and-postorder-traversal.cpp)                                                                                                      | BST | Leetcode 
-
+22 | 1372           | Problem: [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/) <br/>Solution: [c++](../../Online-judge/leetcode/longest-zigzag-path-in-a-binary-tree.cpp),[python](../../Online-judge/leetcode/longest-zigzag-path-in-a-binary-tree.py)                                                                       | BST | Leetcode 
 
 </details>
 
