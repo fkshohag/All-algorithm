@@ -69,7 +69,8 @@ public:
         cout << "DFS Traversal: ";
         for (int i = 0; i < this->traversal_array.size(); i++)
         {
-            cout << this->traversal_array[i] << " ";
+            char node = (char) this->traversal_array[i] + 'a';
+            cout << node << " ";
         }
         cout << endl;
     }
