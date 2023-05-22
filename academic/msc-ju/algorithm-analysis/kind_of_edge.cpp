@@ -13,13 +13,11 @@ public:
     int v;
     int e;
     vector<vector <int> > graph_list;
-    vector<vector <int> > graph_matrix;
  
     Graph(int v, int e) {
         this->v = v;
         this->e = e;
         this->graph_list.resize(v);
-        this->graph_matrix.resize(v, vector<int>(v, 0));
     }
  
     // function to create random graph
@@ -29,7 +27,6 @@ public:
             int u, v;
             scanf("%d %d", &u, &v);
             this->graph_list[u].push_back(v);
-            this->graph_matrix[u][v] = 1;
         }
     }
  
@@ -37,23 +34,12 @@ public:
         cout << "Adjacency List Representation:" << endl;
         for (int i = 0; i < this->v; i++)
         {
-            cout << i << "-->";
+            char uNode = (char) i + 'a';
+            cout << uNode << "-->";
             for (int j = 0; j < this->graph_list[i].size(); j++)
             {
-                cout << this->graph_list[i][j] << " ";
-            }
-            cout << endl;
-        }
-        cout << endl;
-    }
- 
-    void print_graph_matrix() {
-        cout << "Adjacency Matrix Representation:" << endl;
-        for (int i = 0; i < this->graph_matrix.size(); i++)
-        {
-            for (int j = 0; j < this->graph_matrix[i].size(); j++)
-            {
-                cout << this->graph_matrix[i][j] << " ";
+                char vNode = this->graph_list[i][j] + 'a';
+                cout << vNode << " ";
             }
             cout << endl;
         }
@@ -98,22 +84,24 @@ public:
         // traverse through the neighbours
         for (int neighbour = 0; neighbour < this->graph_list[node].size(); neighbour++)
         {
+            char uNode = char(node + 'a');
+            char vNode = char(graph_list[node][neighbour] + 'a');
             if (!this->visited[this->graph_list[node][neighbour]]) {
-                cout << "Tree Edge:" << node << "-->" << this->graph_list[node][neighbour] << endl;
+                cout << "Tree Edge:" << uNode << "-->" << vNode << endl;
                 this->traverse_dfs(this->graph_list[node][neighbour]);
             }
             else {
                 // when the parent node is traversed after the neighbour node
                 if (this->start_time[node] > this->start_time[this->graph_list[node][neighbour]] && this->end_time[node] < this->end_time[this->graph_list[node][neighbour]]) {
-                    cout << "Back Edge:" << node << "-->" << this->graph_list[node][neighbour] << endl;
+                    cout << "Back Edge:" << uNode << "-->" << vNode << endl;
                 }
                 // when the neighbour node is a descendant but not a part of tree
                 else if (this->start_time[node] < this->start_time[this->graph_list[node][neighbour]] && this->end_time[node] > this->end_time[this->graph_list[node][neighbour]]) {
-                    cout << "Forward Edge:" << node << "-->" << this->graph_list[node][neighbour] << endl;
+                    cout << "Forward Edge:" << uNode << "-->" << vNode << endl;
                 }
                 // when parent and neighbour node do not have any ancestor and a descendant relationship between them
                 else if (this->start_time[node] > this->start_time[this->graph_list[node][neighbour]] && this->end_time[node] > this->end_time[this->graph_list[node][neighbour]]) {
-                    cout << "Cross Edge:" << node << "-->" << this->graph_list[node][neighbour] << endl;
+                    cout << "Cross Edge:" << uNode << "-->" << vNode << endl;
                 }
             }
             this->end_time[node] = this->time;
@@ -138,7 +126,6 @@ int main()
 
     g.create_random_graph();
     g.print_graph_list();
-    g.print_graph_matrix();
     g.dfs();
 
     return 0;
