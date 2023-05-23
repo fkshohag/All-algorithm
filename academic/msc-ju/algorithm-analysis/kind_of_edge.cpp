@@ -21,7 +21,7 @@ public:
     }
  
     // function to create random graph
-    void create_random_graph() {
+    void create_graph() {
         for (int i = 0; i < this->e; i++)
         {
             int u, v;
@@ -73,6 +73,14 @@ public:
             cout << node << " ";
         }
         cout << endl;
+
+        cout << "Finishing time: " << endl;
+        for (int i = 0; i < this->traversal_array.size(); i++)
+        {
+            char node = (char) this->traversal_array[i] + 'a';
+            cout << node << " ->> " << this->start_time[this->traversal_array[i]] << " ->> " << this->end_time[this->traversal_array[i]] << endl;
+        }
+        cout << endl;
     }
  
     void traverse_dfs(int node)
@@ -118,14 +126,17 @@ private:
  
 int main()
 {
-    freopen("input/a1.txt", "r", stdin);
+    // freopen("input/11.txt", "r", stdin);
+    // freopen("input/12.txt", "r", stdin);
+    freopen("input/13.txt", "r", stdin);
+    // freopen("input/testedges.txt", "r", stdin);
     srand(time(NULL));
 
     int v, e;
     scanf("%d %d", &v, &e);
     Graph g(v, e);
 
-    g.create_random_graph();
+    g.create_graph();
     g.print_graph_list();
     g.dfs();
 
