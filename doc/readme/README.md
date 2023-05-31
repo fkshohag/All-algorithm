@@ -1,7 +1,7 @@
 ## Coding interview preparation problem
 
 <details>
-<summary>Basic(Array, Sorting, String, Hashing)</summary>
+<summary>Basic(Array, Sorting, String, Hashing, Design)</summary>
 
 Serial | Problem No .     | Problem And solution | Category | Platform
 ---    | ---------        |  ------- | ---- | --- |
@@ -38,6 +38,8 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 31 | 245           | Problem: [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) <br/>Solution: [c++](../../Online-judge/leetcode/shortest-word-distance-iii.cpp), [python](../../Online-judge/leetcode/shortest-word-distance-iii.py)                                                                                                                  | Array, HashMapping | Leetcode
 32 | 1491           | Problem: [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/) <br/>Solution: [c++](../../Online-judge/leetcode/average-salary-excluding-the-minimum-and-maximum-salary.cpp), [python](../../Online-judge/leetcode/average-salary-excluding-the-minimum-and-maximum-salary.py)                                                                                                                  | Array | Leetcode
 33 | 705           | Problem: [Design HashSet](https://leetcode.com/problems/design-hashset/description/) <br/>Solution: [c++](../../Online-judge/leetcode/design-hashset.cpp), [python](../../Online-judge/leetcode/design-hashset.py)                                                                                                                  | Array, Hashing | Leetcode
+34 | 1396           | Problem: [Design Underground System](https://leetcode.com/problems/design-underground-system/description/) <br/>Solution: [c++](../../Online-judge/leetcode/design-underground-system.cpp), [python](../../Online-judge/leetcode/design-underground-system.py)  | Design, Hashing | Leetcode
+35 | 348           | Problem: [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) <br/>Solution: [c++](../../Online-judge/leetcode/design-tic-tac-toe.cpp), [python](../../Online-judge/leetcode/design-tic-tac-toe.py)  | Design, array | Leetcode
 
 </details>
 
