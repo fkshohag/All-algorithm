@@ -277,6 +277,7 @@ Serial | Problem No .     | Problem And solution | Category  | Platform
 21 | 918           | Problem: [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/) <br/>Solution: [C++](../../Online-judge/leetcode/maximum-sum-circular-subarray.cpp)                  | DP, array | Leetcode
 22 | 1137           | Problem: [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/) <br/>Solution: [C++](../../Online-judge/leetcode/n-th-tribonacci-number.cpp)                                                                                                                | DP | Leetcode
 23 | 1626           | Problem: [Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/) <br/>Solution: [C++](../../Online-judge/leetcode/best-team-with-no-conflicts.cpp)                                                                                                                | DP | Leetcode
+24 | 152           | Problem: [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) <br/>Solution: [Python](../../Online-judge/leetcode/maximum-product-subarray.py)                                                                                                                | DP | Leetcode
 
 </details>
 
