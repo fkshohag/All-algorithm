@@ -129,9 +129,8 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 5 | 704           | Problem: [Binary Search](https://leetcode.com/problems/binary-search/description/) <br/>Solution: [c++](../../Online-judge/leetcode/binary-search.cpp)                                                                                                               | binary search | Leetcode
 6 | 74           | Problem: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) <br/>Solution: [c++](../../Online-judge/leetcode/search-a-2d-matrix.cpp)                                                                                                               | 2D binary search | Leetcode
 7 | 153           | Problem: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/find-minimum-in-rotated-sorted-array.cpp)                                     | binary search | Leetcode
-
 8 | 1539           | Problem: [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-missing-positive-number.cpp)                                                                      | Binary search | Leetcode 
-
+9 | 1351           | Problem: [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) <br/>Solution: [c++](../../Online-judge/leetcode/count-negative-numbers-in-a-sorted-matrix.py)   | Matrix, Binary search | Leetcode 
 </details>
 
 
