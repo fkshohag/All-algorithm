@@ -130,7 +130,8 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 6 | 74           | Problem: [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) <br/>Solution: [c++](../../Online-judge/leetcode/search-a-2d-matrix.cpp)                                                                                                               | 2D binary search | Leetcode
 7 | 153           | Problem: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/find-minimum-in-rotated-sorted-array.cpp)                                     | binary search | Leetcode
 8 | 1539           | Problem: [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-missing-positive-number.cpp)                                                                      | Binary search | Leetcode 
-9 | 1351           | Problem: [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) <br/>Solution: [c++](../../Online-judge/leetcode/count-negative-numbers-in-a-sorted-matrix.py)   | Matrix, Binary search | Leetcode 
+9 | 1351           | Problem: [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) <br/>Solution: [Python](../../Online-judge/leetcode/count-negative-numbers-in-a-sorted-matrix.py)   | Matrix, Binary search | Leetcode
+10 | 1150           | Problem: [Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/check-if-a-number-is-majority-element-in-a-sorted-array.cpp)   | Binary search | Leetcode 
 </details>
 
 
