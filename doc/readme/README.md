@@ -132,6 +132,8 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 8 | 1539           | Problem: [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-missing-positive-number.cpp)                                                                      | Binary search | Leetcode 
 9 | 1351           | Problem: [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) <br/>Solution: [Python](../../Online-judge/leetcode/count-negative-numbers-in-a-sorted-matrix.py)   | Matrix, Binary search | Leetcode
 10 | 1150           | Problem: [Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/check-if-a-number-is-majority-element-in-a-sorted-array.cpp)   | Binary search | Leetcode 
+11 | 744           | Problem: [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) <br/>Solution: [c++](../../Online-judge/leetcode/find-smallest-letter-greater-than-target.cpp), [python](../../Online-judge/leetcode/find-smallest-letter-greater-than-target.py)   | Binary search | Leetcode 
+
 </details>
 
 
