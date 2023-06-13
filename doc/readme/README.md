@@ -41,6 +41,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 34 | 1396           | Problem: [Design Underground System](https://leetcode.com/problems/design-underground-system/description/) <br/>Solution: [c++](../../Online-judge/leetcode/design-underground-system.cpp), [python](../../Online-judge/leetcode/design-underground-system.py)  | Design, Hashing | Leetcode
 35 | 348           | Problem: [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) <br/>Solution: [c++](../../Online-judge/leetcode/design-tic-tac-toe.cpp), [python](../../Online-judge/leetcode/design-tic-tac-toe.py)  | Design, array | Leetcode
 36 | 348           | Problem: [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/) <br/>Solution: [c++](../../Online-judge/leetcode/summary-ranges.cpp), [python](../../Online-judge/leetcode/summary-ranges.py)  | array | Leetcode
+37 | 1304           | Problem: [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/) <br/>Solution:  [python](../../Online-judge/leetcode/find-n-unique-integers-sum-up-to-zero.py)  | array | Leetcode
 
 </details>
 
