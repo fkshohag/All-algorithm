@@ -40,6 +40,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 33 | 705           | Problem: [Design HashSet](https://leetcode.com/problems/design-hashset/description/) <br/>Solution: [c++](../../Online-judge/leetcode/design-hashset.cpp), [python](../../Online-judge/leetcode/design-hashset.py)                                                                                                                  | Array, Hashing | Leetcode
 34 | 1396           | Problem: [Design Underground System](https://leetcode.com/problems/design-underground-system/description/) <br/>Solution: [c++](../../Online-judge/leetcode/design-underground-system.cpp), [python](../../Online-judge/leetcode/design-underground-system.py)  | Design, Hashing | Leetcode
 35 | 348           | Problem: [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) <br/>Solution: [c++](../../Online-judge/leetcode/design-tic-tac-toe.cpp), [python](../../Online-judge/leetcode/design-tic-tac-toe.py)  | Design, array | Leetcode
+36 | 348           | Problem: [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/) <br/>Solution: [c++](../../Online-judge/leetcode/summary-ranges.cpp), [python](../../Online-judge/leetcode/summary-ranges.py)  | array | Leetcode
 
 </details>
 
