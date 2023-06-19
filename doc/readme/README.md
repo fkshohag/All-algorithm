@@ -43,6 +43,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 36 | 348           | Problem: [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/) <br/>Solution: [c++](../../Online-judge/leetcode/summary-ranges.cpp), [python](../../Online-judge/leetcode/summary-ranges.py)  | array | Leetcode
 37 | 1304           | Problem: [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/) <br/>Solution:  [python](../../Online-judge/leetcode/find-n-unique-integers-sum-up-to-zero.py)  | array | Leetcode
 38 | 163           | Problem: [Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/missing-ranges.cpp)  | basic, array | Leetcode
+39 | 1732           | Problem: [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/find-the-highest-altitude.cpp)  | sum, max, array | Leetcode
 
 </details>
 
