@@ -72,6 +72,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 1 | 438           | Problem: [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/) <br/>Solution: [C++](../../Online-judge/leetcode/find-all-anagrams-in-a-string.cpp)                                                     | string, Hashmap, Slidewindow | Leetcode
 2 | 567           | Problem: [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/) <br/>Solution: [C++](../../Online-judge/leetcode/permutation-in-string.cpp)                                                 | String, Hashmap, Slidewindow | Leetcode
 3 | 904           | Problem: [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/) <br/>Solution: [C++](../../Online-judge/leetcode/fruit-into-baskets.cpp), [Python](../../Online-judge/leetcode/fruit-into-baskets.py)                             | Slide Window, Hashmap | Leetcode
+4 | 2090           | Problem: [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/) <br/>Solution: [C++](../../Online-judge/leetcode/k-radius-subarray-averages.cpp), [Python](../../Online-judge/leetcode/k-radius-subarray-averages.py)                             | Slide Window, Prefix | Leetcode
 
 
 
