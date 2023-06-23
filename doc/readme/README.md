@@ -293,6 +293,7 @@ Serial | Problem No .     | Problem And solution | Category  | Platform
 25 | 1187           | Problem: [Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing/description/) <br/>Solution: [c++](../../Online-judge/leetcode/make-array-strictly-increasing.cpp)                                                                                                                | DP | Leetcode
 26 | 714           | Problem: [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) <br/>Solution: [c++](../../Online-judge/leetcode/best-time-to-buy-and-sell-stock-with-transaction-fee.cpp)                                                                                                                | DP | Leetcode
 27 | 122           | Problem: [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) <br/>Solution: [c++](../../Online-judge/leetcode/best-time-to-buy-and-sell-stock-ii.cpp)                                                                                                                | DP | Leetcode
+28 | 1027           | Problem: [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/) <br/>Solution: [c++](../../Online-judge/leetcode/longest-arithmetic-subsequence.cpp)                                                                                                                | DP | Leetcode
 
 </details>
 
