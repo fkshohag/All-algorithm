@@ -118,6 +118,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 4 | 1962           | Problem: [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/remove-stones-to-minimize-the-total.cpp)                             | Max heap, Array | Leetcode
 5 | 1834           | Problem: [Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/single-threaded-cpu.cpp)                                 | Min heap, Array, Sorting, SJF, os task scheduling |    Leetcode
 6 | 703           | Problem: [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-largest-element-in-a-stream.cpp)               | Max Heap, Data Stream | 
+7 | 2462           | Problem: [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/) <br/>Solution: [c++](../../Online-judge/leetcode/total-cost-to-hire-k-workers.cpp)               | MIN Heap | 
 
 
 </details>
