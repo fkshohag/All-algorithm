@@ -75,6 +75,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 3 | 904           | Problem: [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/) <br/>Solution: [C++](../../Online-judge/leetcode/fruit-into-baskets.cpp), [Python](../../Online-judge/leetcode/fruit-into-baskets.py)                             | Slide Window, Hashmap | Leetcode
 4 | 2090           | Problem: [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/description/) <br/>Solution: [C++](../../Online-judge/leetcode/k-radius-subarray-averages.cpp), [Python](../../Online-judge/leetcode/k-radius-subarray-averages.py)                             | Slide Window, Prefix | Leetcode
 5 | 1493           | Problem: [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/) <br/>Solution: [C++](../../Online-judge/leetcode/longest-subarray-of-1s-after-deleting-one-element.cpp)                            | Slide Window, DP | Leetcode
+6 | 209           | Problem: [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) <br/>Solution: [C++](../../Online-judge/leetcode/minimum-size-subarray-sum.cpp)                            | Slide Window, DP | Leetcode
 
 
 </details>
