@@ -315,6 +315,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 3 | 134           | Problem: [Gas Station](https://leetcode.com/problems/gas-station/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/gas-station.cpp)                                                           | Array, greedy | Leetcode
 4 | 646           | Problem: [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/) <br/>Solution: [C++](../../Online-judge/leetcode/maximum-length-of-pair-chain.cpp)                                                                                                                |Array, Sort, Greedy |  Leetcode
 5 | 280           | Problem: [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/) <br/>Solution: [C++](../../Online-judge/leetcode/wiggle-sort.cpp)                                                                                                                | Array, Greedy |
+6 | 2272           | Problem: [Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/description/) <br/>Solution: [C++](../../Online-judge/leetcode/substring-with-largest-variance.cpp)                                                                                                                | kadane, Greedy |
 
 
 </details>
