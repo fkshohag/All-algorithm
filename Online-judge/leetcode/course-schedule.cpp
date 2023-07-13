@@ -10,17 +10,36 @@ using namespace std;
 
 class Solution {
 private:
-    bool isCyle(vector<vector<int>>& graph, vector<int>& visited, int node) {
+    bool isCyle(vector<vector<int>>& graph, vector<bool>& visited, vector<bool>& visiting, int node) {
+        visited[node] = true;
+        visiting[node] = true;
+
+        for (int child: graph[node]) {
+            if (!visited[child]) {
+                if(isCyle(graph, visited, visiting, child)) return true;
+            } else {
+                if (visiting[child]) return true;
+            }
+        }
+
+        visiting[node] = false;
+        return false;
+    }
+
+    bool isCyleAlternativeWay(vector<vector<int>>& graph, vector<int>& visited, int node) {
         if (visited[node] == 1) return true;
+        
         if (!visited[node]) {
             visited[node] = 1;
             for (int i = 0; i < graph[node].size(); i++) {
                 if(isCyle(graph, visited, graph[node][i])) return true;
             }
         }
+
         visited[node] = 2;
         return false;
     }
+
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> graph(numCourses);
@@ -28,11 +47,12 @@ public:
             graph[prerequisite[1]].push_back(prerequisite[0]);
         }
         
-        vector<int>visited(numCourses, 0);
+        vector<bool> visited(numCourses, false), visiting(numCourses, false);
+        // vector<int> visited(numCourses, 0) alternative way
         
         for (int course = 0; course < numCourses; course++) {
             if (!visited[course]) {
-                if (isCyle(graph, visited, course)) return false;
+                if (isCyle(graph, visited, visiting, course)) return false;
             }
         }
         return true;
