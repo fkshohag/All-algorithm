@@ -303,6 +303,7 @@ Serial | Problem No .     | Problem And solution | Category  | Platform
 28 | 1027           | Problem: [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/description/) <br/>Solution: [c++](../../Online-judge/leetcode/longest-arithmetic-subsequence.cpp)                                                                                                                | DP | Leetcode
 29 | 1575           | Problem: [Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/description/) <br/>Solution: [c++](../../Online-judge/leetcode/count-all-possible-routes.cpp),[python](../../Online-judge/leetcode/count-all-possible-routes.py)                                                                                | DP | Leetcode
 30 | 465           | Problem: [Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/description/) <br/>Solution: [c++](../../Online-judge/leetcode/optimal-account-balancing.cpp)             | DP | Leetcode
+31 | 1218           | Problem: [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/) <br/>Solution: [c++](../../Online-judge/leetcode/longest-arithmetic-subsequence-of-given-difference.cpp)             | Longest subsequence, DP | Leetcode
 
 </details>
 
