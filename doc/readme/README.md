@@ -335,6 +335,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 2 | 57           | Problem: [Insert Interval](https://leetcode.com/problems/insert-interval/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/insert-interval.cpp)                                                                                                                 | Sort, Array | Leetcode
 3 | 252           | Problem: [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/meeting-rooms.cpp)                                                         | Min Heap, Sort | Leetcode 
 4 | 253           | Problem: [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/meeting-rooms-ii.cpp)                                             | Min Heap, Sort | Leetcode  
+5 | 435           | Problem: [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) <br/>Solution: [C++](../../Online-judge/leetcode/non-overlapping-intervals.cpp), [python](../../Online-judge/leetcode/non-overlapping-intervals.py)                                             | Sort | Leetcode  
 
 </details>
 
