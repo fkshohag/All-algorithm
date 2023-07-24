@@ -358,6 +358,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 10 | 989           | Problem: [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/) <br/>Solution: [c++](../../Online-judge/leetcode/add-to-array-form-of-integer.cpp)                                                                                                               | String, Math |  Leetcode
 11 | 238           | Problem: [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) <br/>Solution: [c++](../../Online-judge/leetcode/product-of-array-except-self.cpp)                                                                                                               | Math | Leetcode 
 12 | 2352           | Problem: [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/description/) <br/>Solution: [c++](../../Online-judge/leetcode/equal-row-and-column-pairs.cpp), [python](../../Online-judge/leetcode/equal-row-and-column-pairs.py)                                                                                                                 | Math | Leetcode 
+13 | 50           | Problem: [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) <br/>Solution:  [python](../../Online-judge/leetcode/powx-n.py)  | math | Leetcode
 
 </details>
 
