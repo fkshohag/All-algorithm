@@ -45,6 +45,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 38 | 163           | Problem: [Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/missing-ranges.cpp)  | basic, array | Leetcode
 39 | 1732           | Problem: [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/find-the-highest-altitude.cpp)  | sum, max, array | Leetcode
 40 | 2453           | Problem: [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/destroy-sequential-targets.cpp)  | hashmap, array | Leetcode
+41 | 852           | Problem: [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) <br/>Solution:  [c++](../../Online-judge/leetcode/peak-index-in-a-mountain-array.cpp)  | array | Leetcode
 
 </details>
 
