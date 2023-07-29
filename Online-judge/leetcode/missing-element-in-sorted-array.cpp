@@ -3,7 +3,7 @@ using namespace std;
 
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
- * Problem : https://leetcode.com/problems/missing-element-in-sorted-array/editorial/
+ * Problem : https://leetcode.com/problems/missing-element-in-sorted-array/
  */
 
 /**
