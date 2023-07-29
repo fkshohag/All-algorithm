@@ -7,7 +7,7 @@ class Solution:
 
         missingNums = 0
         for i in range(1, n):
-            missingNums = nums[i] - nums[i - 1] - 1 # pair mising number count
+            missingNums = nums[i] - nums[i - 1] - 1 # pair missing number count
             if missingNums >= k:
                 return nums[i - 1] + k
             k -= missingNums # update found missing number
