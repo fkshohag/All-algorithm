@@ -311,6 +311,7 @@ Serial | Problem No .     | Problem And solution | Category  | Platform
 32 | 688           | Problem: [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/submissions/) <br/>Solution: [c++](../../Online-judge/leetcode/knight-probability-in-chessboard.cpp), [python](../../Online-judge/leetcode/knight-probability-in-chessboard.py)           | Chess, DP | Leetcode
 33 | 486           | Problem: [Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/) <br/>Solution: [c++](../../Online-judge/leetcode/predict-the-winner.cpp), [python](../../Online-judge/leetcode/predict-the-winner.py)           | Chess, DP | Leetcode
 34 | 808           | Problem: [Soup Servings](https://leetcode.com/problems/soup-servings/description/) <br/>Solution: [c++](../../Online-judge/leetcode/soup-servings.cpp), [python](../../Online-judge/leetcode/soup-servings.py)           | Chess, DP | Leetcode
+35 | 664           | Problem: [Strange Printer](https://leetcode.com/problems/strange-printer/description/) <br/>Solution: [c++](../../Online-judge/leetcode/strange-printer.cpp)           | DP | Leetcode
 
 </details>
 
