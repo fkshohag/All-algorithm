@@ -206,6 +206,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 26 | 1214           | Problem: [Two Sum BST](https://leetcode.com/problems/two-sum-bsts/description/) <br/>Solution: [c++](../../Online-judge/leetcode/two-sum-bsts.cpp), [python](../../Online-judge/leetcode/two-sum-bsts.py)                                                                       | BST | Leetcode 
 27 | 863           | Problem: [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/) <br/>Solution: [c++](../../Online-judge/leetcode/all-nodes-distance-k-in-binary-tree.cpp), [python](../../Online-judge/leetcode/all-nodes-distance-k-in-binary-tree.py)                                                                       | B-tree, bfs, dfs | Leetcode 
 28 | 1644           | Problem: [Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/description/) <br/>Solution: [c++](../../Online-judge/leetcode/lowest-common-ancestor-of-a-binary-tree-ii.cpp)                      | B-tree | Leetcode 
+30 | 95           | Problem: [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) <br/>Solution: [c++](../../Online-judge/leetcode/unique-binary-search-trees-ii.cpp)                      | B-tree | Leetcode 
 
 </details>
 
