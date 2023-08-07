@@ -315,6 +315,7 @@ Serial | Problem No .     | Problem And solution | Category  | Platform
 35 | 664           | Problem: [Strange Printer](https://leetcode.com/problems/strange-printer/description/) <br/>Solution: [c++](../../Online-judge/leetcode/strange-printer.cpp)           | DP | Leetcode
 36 | 2361           | Problem: [Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/description/) <br/>Solution: [c++](../../Online-judge/leetcode/minimum-costs-using-the-train-line.cpp), [python](../../Online-judge/leetcode/minimum-costs-using-the-train-line.py)           | DP | Leetcode
 37 | 139           | Problem: [Word Break](https://leetcode.com/problems/minimum-costs-using-the-train-line/description/) <br/>Solution: [python](../../Online-judge/leetcode/minimum-costs-using-the-train-line.py)           | DP | Leetcode
+38 | 920           | Problem: [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/) <br/>Solution: [c++](../../Online-judge/leetcode/number-of-music-playlists.cpp)           | Permutation, Combination, DP | Leetcode
 
 </details>
 
