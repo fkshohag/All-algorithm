@@ -122,6 +122,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 6 | 703           | Problem: [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-largest-element-in-a-stream.cpp)               | Max Heap, Data Stream | 
 7 | 2462           | Problem: [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/) <br/>Solution: [c++](../../Online-judge/leetcode/total-cost-to-hire-k-workers.cpp)               | MIN Heap | 
 8 | 373           | Problem: [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) <br/>Solution: [c++](../../Online-judge/leetcode/find-k-pairs-with-smallest-sums.cpp)               | MAX Heap | 
+9 | 215           | Problem: [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-largest-element-in-an-array.cpp)               | MIN Heap | 
 
 
 </details>
