@@ -123,6 +123,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 7 | 2462           | Problem: [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/) <br/>Solution: [c++](../../Online-judge/leetcode/total-cost-to-hire-k-workers.cpp)               | MIN Heap | 
 8 | 373           | Problem: [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) <br/>Solution: [c++](../../Online-judge/leetcode/find-k-pairs-with-smallest-sums.cpp)               | MAX Heap | 
 9 | 215           | Problem: [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-largest-element-in-an-array.cpp)               | MIN Heap | 
+10 | 973           | Problem: [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) <br/>Solution: [c++](../../Online-judge/leetcode/k-closest-points-to-origin.cpp)               | MIN Heap | 
 
 
 </details>

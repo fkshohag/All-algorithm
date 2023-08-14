@@ -5,6 +5,7 @@ using namespace std;
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/kth-largest-element-in-an-array/description/
  * Complexity: running O(nlogk)
+ * Space complexity: O(k)
  */
 
 class Solution {
