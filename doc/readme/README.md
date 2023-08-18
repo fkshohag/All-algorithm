@@ -273,6 +273,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 27 | 743           | Problem: [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) <br/>Solution: [python](../../Online-judge/leetcode/shortest-path-in-binary-matrix.py)                                                                                                                  | BFS | Leetcode
 28 | 2101           | Problem: [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/) <br/>Solution: [C++](../../Online-judge/leetcode/detonate-the-maximum-bombs.cpp), [python](../../Online-judge/leetcode/detonate-the-maximum-bombs.py)                                                                                                                  | DFS | Leetcode
 29 | 802           | Problem: [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/description/) <br/>Solution: [C++](../../Online-judge/leetcode/find-eventual-safe-states.cpp), [python](../../Online-judge/leetcode/find-eventual-safe-states.py)                                                                                                                  | DFS, Topological sort | Leetcode
+30 | 542           | Problem: [01 Matrix](https://leetcode.com/problems/01-matrix/description/) <br/>Solution: [C++](../../Online-judge/leetcode/01-matrix.cpp)                                                                                                                  | BFS | Leetcode
 
 </details>
 
