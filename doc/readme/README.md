@@ -125,6 +125,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 8 | 373           | Problem: [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) <br/>Solution: [c++](../../Online-judge/leetcode/find-k-pairs-with-smallest-sums.cpp)               | MAX Heap | 
 9 | 215           | Problem: [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) <br/>Solution: [c++](../../Online-judge/leetcode/kth-largest-element-in-an-array.cpp)               | MIN Heap | 
 10 | 973           | Problem: [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) <br/>Solution: [c++](../../Online-judge/leetcode/k-closest-points-to-origin.cpp)               | MIN Heap | 
+11 | 767           | Problem: [Reorganize String](https://leetcode.com/problems/reorganize-string/) <br/>Solution: [c++](../../Online-judge/leetcode/reorganize-string.cpp)               | MAX Heap | 
 
 
 </details>
