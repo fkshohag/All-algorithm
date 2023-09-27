@@ -46,6 +46,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 39 | 1732           | Problem: [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/find-the-highest-altitude.cpp)  | sum, max, array | Leetcode
 40 | 2453           | Problem: [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/destroy-sequential-targets.cpp)  | hashmap, array | Leetcode
 41 | 852           | Problem: [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) <br/>Solution:  [c++](../../Online-judge/leetcode/peak-index-in-a-mountain-array.cpp)  | array | Leetcode
+42 | 4           | Problem: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) <br/>Solution:  [c++](../../Online-judge/leetcode/median-of-two-sorted-arrays.cpp)  | array | Leetcode
 
 </details>
 
@@ -95,6 +96,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 5 | 150           | Problem: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/evaluate-reverse-polish-notation.cpp)                                  | Stack |          Leetcode
 6 | 739           | Problem: [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/daily-temperatures.cpp)                                                                      | Stack | Leetcode     
 7 | 2390           | Problem: [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/description/) <br/>Solution: [Solution Link](../../Online-judge/leetcode/removing-stars-from-a-string.cpp)                          | String, Stack |     Leetcode            
+8 | 316           | Problem: [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description) <br/>Solution: [Solution Link](../../Online-judge/leetcode/remove-duplicate-letters.cpp)                          | String, Stack |     Leetcode            
 
 </details>
 
