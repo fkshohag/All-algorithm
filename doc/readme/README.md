@@ -47,6 +47,7 @@ Serial | Problem No .     | Problem And solution | Category | Platform
 40 | 2453           | Problem: [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/) <br/>Solution:  [c++](../../Online-judge/leetcode/destroy-sequential-targets.cpp)  | hashmap, array | Leetcode
 41 | 852           | Problem: [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/) <br/>Solution:  [c++](../../Online-judge/leetcode/peak-index-in-a-mountain-array.cpp)  | array | Leetcode
 42 | 4           | Problem: [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) <br/>Solution:  [c++](../../Online-judge/leetcode/median-of-two-sorted-arrays.cpp)  | array | Leetcode
+43 | 880           | Problem: [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) <br/>Solution:  [c++](../../Online-judge/leetcode/decoded-string-at-index.cpp)  | String | Leetcode
 
 </details>
 
