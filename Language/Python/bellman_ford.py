@@ -6,7 +6,7 @@ class Solution:
         dist = [0] + [float("inf")] * N
         dist[K] = 0
         for node in range(1, N):
-            for u,v,w in times:
+            for u, v, w in times:
                 if dist[u] + w < dist[v]:
                     dist[v] = dist[u] + w
         if max(dist) < float("inf"):

@@ -2,6 +2,7 @@ from collections import defaultdict
 from typing import List
 import heapq
 
+
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
         graph = defaultdict(list)
@@ -15,7 +16,7 @@ class Solution:
             utime, node = heapq.heappop(heap)
             for vnode, vtime in graph[node]:
                 if utime + vtime < distance[vnode]:
-                    distance[vnode] = utime+vtime
+                    distance[vnode] = utime + vtime
                     heapq.heappush(heap, (utime + vtime, vnode))
 
         if max(distance) < float('inf'):
