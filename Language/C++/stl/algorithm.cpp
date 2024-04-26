@@ -17,9 +17,16 @@ int main()
     v.push_back(3);
     v.push_back(7);
 
+    sort(v.begin(), v.end());
+    
+    for (int i = 0; i < v.size(); i++) {
+        printf("%d ", v[i]);
+    }
+    printf("\n");
+
     // binary search - to search if an element is present
     cout << "Check if 6 is present in vector- ";
-    cout << binary_search(v.begin(), v.end(), 6) << endl;
+    cout << binary_search(v.begin(), v.end(), 232) << endl;
 
     // lower bound:- The element just greater than given element
     cout << "The lower bound for 5 is ";
