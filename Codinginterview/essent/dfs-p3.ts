@@ -2,8 +2,6 @@
 
 // O(N^2 * M^2)
 
-// Note: please restart the page if syntax highlighting works bad.
-let el = document.querySelector('#header')
 
 function countNumberOfShips(b: number[][]): number[] {
     const numRows = b.length;
