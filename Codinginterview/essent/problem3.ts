@@ -1,7 +1,12 @@
+// O(m*n )
+
 function countNumberOfShips(b: number[][]): number[] {
     const numRows = b.length;
     const numCols = b[0].length;
     const res: number[] = [];
+    for (let i = 0; i < 3; i++) {
+        res.push(0);
+    }
 
     function getNeighbours(coord: [number, number]): [number, number][] {
         const [row, col] = coord;
@@ -54,6 +59,13 @@ function countNumberOfShips(b: number[][]): number[] {
 let b: string[] = ['.##.#', '#.#..', '#...#', '#.##.'];
 b = b.map(row => row.replace(/\./g, '0').replace(/#/g, '1').split('').map(Number));
 console.log(countNumberOfShips(b)); // Output: [2, 1, 0]
+
+/*
+'.##.#',
+'#.#..',
+'#...#',
+'#.##.'
+*/
 
 
 
