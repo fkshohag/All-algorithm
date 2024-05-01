@@ -13,6 +13,7 @@ function countNumberOfShips(board: string[]): number[] {
         const [row, col] = coord;
         const deltaRow = [-1, 0, 1, 0];
         const deltaCol = [0, 1, 0, -1];
+        // The tuple represents a coordinate pair, where the first number is the row and the second number is the column.
         const neighbours: [number, number][] = [];
         
         for (let i = 0; i < deltaRow.length; i++) {
@@ -60,4 +61,4 @@ function countNumberOfShips(board: string[]): number[] {
 
 // Test input
 let board: string[] = ['.##.#', '#.#..', '#...#', '#.##.'];
-console.log(countNumberOfShips(board)); // Output: [2, 1, 0]
+console.log(countNumberOfShips(board)); // Output: [2, 1, 2]
