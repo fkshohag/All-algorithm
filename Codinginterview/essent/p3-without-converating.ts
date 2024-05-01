@@ -77,7 +77,7 @@ function countNumberOfShips(board: string[]): number[] {
     Auxiliary Space: Apart from the call stack, additional space is used to store the grid representation. However, 
     this space is negligible compared to the stack space and can be considered constant.
     */
-   
+
     function getSizeWithDfs(coord: [number, number]): number {
         const [row, col] = coord;
         if (row < 0 || row >= numRows || col < 0 || col >= numCols || grid[row][col] === 0) {
@@ -107,3 +107,31 @@ function countNumberOfShips(board: string[]): number[] {
 // Test input
 let board: string[] = ['.##.#', '#.#..', '#...#', '#.##.'];
 console.log(countNumberOfShips(board)); // Output: [2, 1, 2]
+
+
+/*
+Depth-First Search (DFS) and Breadth-First Search (BFS) are both algorithms used for traversing or 
+searching graphs or trees, but they have different strategies and characteristics:
+
+Strategy:
+DFS explores as far as possible along each branch before backtracking. It goes deep into the graph or tree, 
+exploring as far as possible along each branch before backtracking.
+BFS explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
+Traversal Order:
+DFS traverses depth-wise, meaning it explores nodes at the same level before moving to the next level.
+BFS traverses breadth-wise, meaning it explores all nodes at the current level before moving to the nodes at the next level.
+Data Structures Used:
+DFS is usually implemented using recursion or a stack data structure (implicitly through the call stack).
+BFS is implemented using a queue data structure.
+Space Complexity:
+DFS typically uses less memory because it doesn't need to store all nodes at the current level like BFS does. 
+It only needs to store the nodes along the current branch.
+BFS may use more memory, especially for large, wide graphs, because it needs to maintain a queue to store nodes 
+at the current level.
+Applications:
+DFS is often used for topological sorting, cycle detection, pathfinding, and solving puzzles like maze traversal.
+BFS is commonly used for shortest path finding, finding connected components, and traversing level-by-level.
+Completeness and Optimality:
+DFS may not find the shortest path between two nodes, especially if the graph has cycles.
+BFS always finds the shortest path between two nodes in an unweighted graph.
+*/
