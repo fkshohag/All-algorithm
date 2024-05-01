@@ -31,6 +31,8 @@ function countNumberOfShips(board: string[]): number[] {
         grid[startRow][startCol] = 0;
         let size = 0;
         while (queue.length > 0) {
+            // The exclamation mark (!) in queue.shift()! is the non-null assertion operator in TypeScript. 
+            // It tells the TypeScript compiler that you are certain that queue.shift() will not return null or undefined.
             const [row, col] = queue.shift()!;
             size++;
             for (const neighbour of getNeighbours([row, col])) {
