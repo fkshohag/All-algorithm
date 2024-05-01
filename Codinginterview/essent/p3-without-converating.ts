@@ -26,6 +26,7 @@ function countNumberOfShips(board: string[]): number[] {
         return neighbours;
     }
 
+    // O(m * n)
     function getSize(start: [number, number]): number {
         const queue: [number, number][] = [start];
         const [startRow, startCol] = start;
@@ -46,6 +47,7 @@ function countNumberOfShips(board: string[]): number[] {
         return size;
     }
 
+    // O(m * n)
     function getSizeWithDfs(coord: [number, number]): number {
         const [row, col] = coord;
         if (row < 0 || row >= numRows || col < 0 || col >= numCols || grid[row][col] === 0) {
