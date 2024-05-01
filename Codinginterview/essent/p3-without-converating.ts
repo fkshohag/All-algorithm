@@ -1,12 +1,13 @@
-// O(m*n )
-
-function countNumberOfShips(b: number[][]): number[] {
-    const numRows = b.length;
-    const numCols = b[0].length;
+function countNumberOfShips(board: string[]): number[] {
+    const numRows = board.length;
+    const numCols = board[0].length;
     const res: number[] = [];
     for (let i = 0; i < 3; i++) {
         res.push(0);
     }
+
+    // Convert the board string array to a 2D array of numbers
+    const grid: number[][] = board.map(row => row.split('').map(cell => cell === '#' ? 1 : 0));
 
     function getNeighbours(coord: [number, number]): [number, number][] {
         const [row, col] = coord;
@@ -27,16 +28,16 @@ function countNumberOfShips(b: number[][]): number[] {
     function getSize(start: [number, number]): number {
         const queue: [number, number][] = [start];
         const [startRow, startCol] = start;
-        b[startRow][startCol] = 0;
+        grid[startRow][startCol] = 0;
         let size = 0;
         while (queue.length > 0) {
             const [row, col] = queue.shift()!;
             size++;
             for (const neighbour of getNeighbours([row, col])) {
                 const [r, c] = neighbour;
-                if (b[r][c] === 0) continue;
+                if (grid[r][c] === 0) continue;
                 queue.push(neighbour);
-                b[r][c] = 0;
+                grid[r][c] = 0;
             }
         }
         return size;
@@ -44,7 +45,7 @@ function countNumberOfShips(b: number[][]): number[] {
 
     for (let i = 0; i < numRows; i++) {
         for (let j = 0; j < numCols; j++) {
-            if (b[i][j] === 0) continue;
+            if (grid[i][j] === 0) continue;
             const size = getSize([i, j]);
             if (size <= 3) {
                 res[size - 1] = (res[size - 1] || 0) + 1;
@@ -56,20 +57,5 @@ function countNumberOfShips(b: number[][]): number[] {
 }
 
 // Test input
-let b: string[] = ['.##.#', '#.#..', '#...#', '#.##.'];
-
-// A string is a primitive value, it's immutable. we can change value inside a string that is the reason for changing this value
-
-b = b.map(row => row.replace(/\./g, '0').replace(/#/g, '1').split('').map(Number));
-console.log(countNumberOfShips(b)); // Output: [2, 1, 2]
-
-/*
-'.##.#',
-'#.#..',
-'#...#',
-'#.##.'
-*/
-
-
-
-
+let board: string[] = ['.##.#', '#.#..', '#...#', '#.##.'];
+console.log(countNumberOfShips(board)); // Output: [2, 1, 0]
