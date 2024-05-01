@@ -46,6 +46,19 @@ function countNumberOfShips(board: string[]): number[] {
         return size;
     }
 
+    function getSizeWithDfs(coord: [number, number]): number {
+        const [row, col] = coord;
+        if (row < 0 || row >= numRows || col < 0 || col >= numCols || grid[row][col] === 0) {
+            return 0;
+        }
+        grid[row][col] = 0; // Mark visited
+        let size = 1;
+        for (const neighbour of getNeighbours([row, col])) {
+            size += getSizeWithDfs(neighbour);
+        }
+        return size;
+    }
+
     for (let i = 0; i < numRows; i++) {
         for (let j = 0; j < numCols; j++) {
             if (grid[i][j] === 0) continue;
