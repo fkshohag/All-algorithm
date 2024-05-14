@@ -37,3 +37,12 @@ d = [-val for val in d]
 heapq.heapify(d)
 heapq.heappush(d, -10)
 print(-heapq.heappop(d))
+
+# type conversation
+t = 32432343
+print(str(t))
+
+# string
+s = 'i love bangladesh'
+ll = s.split(' ')
+print(' '.join(ll))
