@@ -10,6 +10,12 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+struct Compare {
+    bool operator() (const vector<int>& v1, const vector<int>& v2) {
+        return v1[0] < v2[0];
+    }
+};
+
 
 // Node class for linkList
 struct Node {
@@ -83,6 +89,7 @@ int main() {
     pq.push(10);
     // min heap
     priority_queue<int, vector<int>, greater<int>> pqmin;
+    priority_queue<vector<int>, vector<vector<int>>, Compare> pqminCustom;
     pqmin.push(3);
     pqmin.push(1);
     cout << pqmin.top();
