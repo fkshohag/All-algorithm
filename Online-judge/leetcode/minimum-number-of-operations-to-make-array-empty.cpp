@@ -4,14 +4,8 @@ using namespace std;
 /**
  * @author Md.Shohag <shohag.fks@gmail.com>
  * Problem : https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/
- * Time complexity: O(nlogn), sorting
- * Space complexity: O(1)
-*/
-
-
-/**
-* sort by second = [[1, 6], [2, 8], [7, 12], [10, 16]]
-* overlap means we don't need to count increase 
+ * Time complexity: O(n)
+ * Space complexity: O(n)
 */
 
 class Solution {
